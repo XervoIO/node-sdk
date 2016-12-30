@@ -1,0 +1,29 @@
+{
+  "name": "xervo",
+  "description": "SDK for working with xervo.io in Node.js",
+  "version": "0.0.1",
+  "author": "Jack Boberg <jack@jackboberg.info>",
+  "bugs": {
+    "url": "https://github.com/XervoIO/node-sdk/issues"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/XervoIO",
+  "keywords": [
+    "Modulus",
+    "Xervo",
+    "XervoIO"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XervoIO/node-sdk.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js | tap-spec"
+  }
+}
